@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Kawan Gayo, estudante de Desenvolvimento de Sistemas.">
+    <title>Kawan Gayo | Portfólio Dev</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header" id="topo">
+        <div class="container header-content">
+            <a href="#inicio" class="logo" aria-label="KG, página inicial">
+                <span class="logo-mark">KG</span>
+                <span>KAWAN GAYO</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menu de navegação"
+                aria-expanded="false" aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="navMenu" aria-label="Menu principal">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+
+                <button class="theme-toggle" id="themeToggle"
+                    type="button" aria-label="Alternar tema claro e escuro">
+                    ☀
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- INÍCIO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow" id="saudacao">OLÁ, SEJA BEM-VINDO!</p>
+                    <p class="hero-label">ESTUDANTE DE DESENVOLVIMENTO DE SISTEMAS</p>
+
+                    <h1>Olá, eu sou <span>Kawan Gayo.</span></h1>
+
+                    <p class="hero-description">
+                        Estou aprendendo a transformar ideias em soluções
+                        digitais usando programação, criatividade e tecnologia.
+                        Este é o meu espaço para apresentar minha evolução.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="button button-primary">
+                            Ver meus projetos
+                        </a>
+
+                        <a href="#contato" class="button button-outline">
+                            Entrar em contato
+                        </a>
+                    </div>
+
+                    <p class="hero-note">
+                        Sempre aprendendo. Sempre evoluindo.
+                    </p>
+                </div>
+
+                <!-- FOTO DE PERFIL -->
+                <div class="hero-visual" aria-label="Foto de perfil de Kawan Gayo">
+                    <div class="visual-frame">
+                        <span class="visual-small">PORTFÓLIO</span>
+
+                        <img
+                            src="img/FOTO2.png"
+                            alt="Foto de perfil de Kawan Gayo"
+                            class="profile-photo"
+                        >
+
+                        <span class="visual-line"></span>
+                        <span class="visual-name">KAWAN GAYO</span>
+                        <span class="visual-role">DEVELOPER IN PROGRESS</span>
+                    </div>
+
+                    <span class="visual-decoration decoration-one"></span>
+                    <span class="visual-decoration decoration-two"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="section about-section" id="sobre">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">CONHEÇA UM POUCO</p>
+                    <h2>Sobre <span>mim</span></h2>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-number">01</div>
+
+                    <div class="about-text">
+                        <p>
+                            Meu nome é Kawan Gayo e sou estudante do curso
+                            Técnico em Desenvolvimento de Sistemas no SENAC
+                            MedTec. Tenho interesse pela área de tecnologia
+                            e estou desenvolvendo meus conhecimentos em
+                            programação, criação de sites e banco de dados.
+                        </p>
+
+                        <p>
+                            Estou construindo minha experiência por meio de
+                            atividades e projetos práticos. Quero melhorar
+                            minha lógica de programação, aprender novas
+                            ferramentas e me preparar para oportunidades
+                            profissionais na área de tecnologia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section skills-section" id="habilidades">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">O QUE ESTOU APRENDENDO</p>
+                    <h2>Minhas <span>habilidades</span></h2>
+
+                    <p class="section-description">
+                        Tecnologias e ferramentas que fazem parte dos meus estudos.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-icon">HTML</span>
+                        <h3>HTML5</h3>
+                        <p>Estruturação de páginas web.</p>
+                        <div class="skill-track"><span style="width: 70%"></span></div>
+                        <p class="skill-level">Em desenvolvimento</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">CSS</span>
+                        <h3>CSS3</h3>
+                        <p>Estilização e responsividade.</p>
+                        <div class="skill-track"><span style="width: 60%"></span></div>
+                        <p class="skill-level">Em desenvolvimento</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">JS</span>
+                        <h3>JavaScript</h3>
+                        <p>Interatividade e lógica de programação.</p>
+                        <div class="skill-track"><span style="width: 40%"></span></div>
+                        <p class="skill-level">Em aprendizado</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">SQL</span>
+                        <h3>SQL e SQLite</h3>
+                        <p>Criação e consulta de bancos de dados.</p>
+                        <div class="skill-track"><span style="width: 55%"></span></div>
+                        <p class="skill-level">Em desenvolvimento</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">PY</span>
+                        <h3>Python e Flask</h3>
+                        <p>Fundamentos de programação e aplicações web.</p>
+                        <div class="skill-track"><span style="width: 35%"></span></div>
+                        <p class="skill-level">Em aprendizado</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">FG</span>
+                        <h3>Figma</h3>
+                        <p>Protótipos e organização de interfaces.</p>
+                        <div class="skill-track"><span style="width: 45%"></span></div>
+                        <p class="skill-level">Em aprendizado</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section projects-section" id="projetos">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MEU APRENDIZADO NA PRÁTICA</p>
+                    <h2>Meus <span>projetos</span></h2>
+
+                    <p class="section-description">
+                        Alguns projetos e estudos que representam minha evolução.
+                    </p>
+                </div>
+
+                <div class="project-filters" aria-label="Filtrar projetos por tecnologia">
+                    <button class="filter-button active" data-filter="todos" type="button">
+                        Todos
+                    </button>
+
+                    <button class="filter-button" data-filter="html" type="button">
+                        HTML/CSS
+                    </button>
+
+                    <button class="filter-button" data-filter="javascript" type="button">
+                        JavaScript
+                    </button>
+
+                    <button class="filter-button" data-filter="sql" type="button">
+                        SQL
+                    </button>
+
+                    <button class="filter-button" data-filter="python" type="button">
+                        Python
+                    </button>
+
+                    <button class="filter-button" data-filter="figma" type="button">
+                        Figma
+                    </button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Os cards dos projetos serão criados pelo JavaScript. -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO: SEM FORMULÁRIO -->
+        <section class="section contact-section" id="contato">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <p class="eyebrow">VAMOS CONVERSAR?</p>
+
+                    <h2>Entre em <span>contato</span></h2>
+
+                    <p>
+                        Tem uma ideia, uma oportunidade ou quer conhecer
+                        melhor meus projetos? Você pode entrar em contato
+                        pelos canais abaixo.
+                    </p>
+
+                    <a class="social-link"
+                        href="https://github.com/Kawan-71"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span class="social-icon">GH</span>
+
+                        <span>
+                            <strong>GitHub</strong>
+                            <small>Conheça meus códigos e projetos</small>
+                        </span>
+
+                        <span class="social-arrow">↗</span>
+                    </a>
+
+                    <p class="contact-note">
+                        Não coloque informações pessoais sensíveis neste portfólio.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#topo" class="footer-logo">KG<span>.</span></a>
+
+            <p>
+                © <span id="currentYear"></span> Kawan Gayo. Feito com dedicação.
+            </p>
+
+            <a href="#topo" class="back-to-top" id="backToTop">
+                Voltar ao topo ↑
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
